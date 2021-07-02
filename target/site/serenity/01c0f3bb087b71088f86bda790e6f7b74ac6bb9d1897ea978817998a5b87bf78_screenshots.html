@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="9d5fba98445f6122275de5b7a1943c110717a3821247bdfb4296df4a9c045ee1.html">HU-001 Registro Usuario Utest</a></span>
+                > <span class="truncate-60"><a
+                    href="01c0f3bb087b71088f86bda790e6f7b74ac6bb9d1897ea978817998a5b87bf78.html">Registro de usuario </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-07-2021 12:37</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">HU-001 Registro Usuario Utest </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                yo como usuario nuevo de Utest<br />
+quiero registrarme en la pagina<br />
+para ver poder ver el contenido de la pagina
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Registro de usuario
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="56caef25e9940e494c76a88ba5b381fa96cf10c728f166d621f10daaf81d3735.png" title=" Given que me encuentro en la pagina de Utest con la url https://www.utest.com/" width="1366"/>
+                <img src="56caef25e9940e494c76a88ba5b381fa96cf10c728f166d621f10daaf81d3735.png" title=" When realizo el registro en la pagina" width="1366"/>
+                <img src="56caef25e9940e494c76a88ba5b381fa96cf10c728f166d621f10daaf81d3735.png" title=" Diego proceso registro" width="1366"/>
+                <img src="56caef25e9940e494c76a88ba5b381fa96cf10c728f166d621f10daaf81d3735.png" title=" Diego esperar" width="1366"/>
+                <img src="3da40fc76cd215a687e71a182b35ec81624f8f526dcb19cb2f3778e2b8276ce4.png" title=" Diego clicks on Boton para iniciar el registro" width="1366"/>
+                <img src="6b152e1816edc84375da795fb286de6c8c42ad1cc9e16591417002c8b22526b7.png" title=" Diego enters 'Ana' into Campo para ingresar el nombre" width="1366"/>
+                <img src="c48ee0c3c50ba63b1a3de1b5c6803d59afc408de2a37ae945a4d7618fb826105.png" title=" Diego enters 'Ana' into Campo para ingresar el nombre (completed)" width="1366"/>
+                <img src="6464e9ac66b7031fceb27e00177370ed5855cd7958e8b7730940fd4a51c047b2.png" title=" Diego enters 'Rosales' into Campo para ingresar el apellido" width="1366"/>
+                <img src="f6d4488cd69fbb2efb27adc2e46c1c9a2061fef0ff8a3b849f8e38e2c2f09797.png" title=" Diego enters 'Rosales' into Campo para ingresar el apellido (completed)" width="1366"/>
+                <img src="2c3c538327bd476a3758d75a38efaf579155cb4416a9ddab6edbd61c5be936ce.png" title=" Diego enters 'anitarosales21@gmail.com' into Campo para ingresar el email" width="1366"/>
+                <img src="bef9505bb8f53f0c6a6e9605f6f73134cb0989db43aa62860f2e39f163637c23.png" title=" Diego enters 'anitarosales21@gmail.com' into Campo para ingresar el email (completed)" width="1366"/>
+                <img src="bef9505bb8f53f0c6a6e9605f6f73134cb0989db43aa62860f2e39f163637c23.png" title=" Diego clicks on Seleccion del mes de nacimiento" width="1366"/>
+                <img src="6f59cf18dea328f870e686bf59b8d6e51cb2aad21c96046a16e6560ed1932857.png" title=" Diego clicks on Seleccion del mes de nacimiento (completed)" width="1366"/>
+                <img src="6f59cf18dea328f870e686bf59b8d6e51cb2aad21c96046a16e6560ed1932857.png" title=" Diego select February on Seleccion del mes de nacimiento" width="1366"/>
+                <img src="a6a673cb033f3a008507aefcd1fd832bb7bda622a5d6084e64f542c43292fa8f.png" title=" Diego select February on Seleccion del mes de nacimiento (completed)" width="1366"/>
+                <img src="a6a673cb033f3a008507aefcd1fd832bb7bda622a5d6084e64f542c43292fa8f.png" title=" Diego select 23 on Seleccion del dia de nacimiento" width="1366"/>
+                <img src="74066db5780f5617e409b5e34976cb3dffe0fde6b54e6f05764a5a7dad5231eb.png" title=" Diego select 23 on Seleccion del dia de nacimiento (completed)" width="1366"/>
+                <img src="74066db5780f5617e409b5e34976cb3dffe0fde6b54e6f05764a5a7dad5231eb.png" title=" Diego select 1989 on Seleccion del anio de nacimiento" width="1366"/>
+                <img src="4062153e081dcb655d7327c841dc7d6ff95a6f7ff6f6a4f0036e4cab82b36062.png" title=" Diego select 1989 on Seleccion del anio de nacimiento (completed)" width="1366"/>
+                <img src="40e224494c07017cb13c1401542bca20cd9b7738ee41a2e185abfd156e537f51.png" title=" Diego clicks on Campo para ingresar el idioma" width="1366"/>
+                <img src="ee556c087852581aa7baa43d282b5a40846bb2af984366c9484b43a904cfa493.png" title=" Diego clicks on Campo para ingresar el idioma (completed)" width="1366"/>
+                <img src="31093b0434b427528ba695567e543636ad7d50b073c418d7d7465d95f061d5ea.png" title=" Diego clicks on Seleccion del idioma" width="1366"/>
+                <img src="398bc03cba7b23690d2b1baa937101162ebaba15915d28fbfcc8d3d36412f7f2.png" title=" Diego clicks on Seleccion del idioma (completed)" width="1366"/>
+                <img src="398bc03cba7b23690d2b1baa937101162ebaba15915d28fbfcc8d3d36412f7f2.png" title=" Diego clicks on Primer boton para avanzar al siguiente paso" width="1366"/>
+                <img src="cb8e7bc9824e7594cbf6a9bb4a290d3de263407cda0539ce0daffd77168cfc02.png" title=" Diego clicks on Primer boton para avanzar al siguiente paso (completed)" width="1366"/>
+                <img src="f0668b9bb21a066bf21e9c912fc3c9a6423469b7942e638330dc1c94853412f6.png" title=" Diego esperar" width="1366"/>
+                <img src="c834e72ecec39ae962ebbdc53d79b07dd22590c69069f1b5379ee77c029247c7.png" title=" Diego esperar (completed)" width="1366"/>
+                <img src="c834e72ecec39ae962ebbdc53d79b07dd22590c69069f1b5379ee77c029247c7.png" title=" Diego clicks on Campo para el ingreso de la ciudad" width="1366"/>
+                <img src="a2d389847d17c4ee41d2b4d926de77322969aae6cda518fd3a969906edd801b3.png" title=" Diego clicks on Campo para el ingreso de la ciudad (completed)" width="1366"/>
+                <img src="d2019d14d8de7448ac4e009641f6bdee9d11aad901a48b46533cebf3a544d5fc.png" title=" Diego esperar" width="1366"/>
+                <img src="2de72d2b226cb9fc6ab0568a1da5166539e699a4b48156cc9bb775f06b8f2da0.png" title=" Diego esperar (completed)" width="1366"/>
+                <img src="2de72d2b226cb9fc6ab0568a1da5166539e699a4b48156cc9bb775f06b8f2da0.png" title=" Diego clicks on Segundo boton para avanzar al siguiente paso" width="1366"/>
+                <img src="fb665432feb1e725bf174740bf461630e18ac94ada3a3e100ca91283dd0a7470.png" title=" Diego clicks on Segundo boton para avanzar al siguiente paso (completed)" width="1366"/>
+                <img src="aad3435e770adc7e371f6f75bd9ad76dad4bfc69f0737716d7ae2b6be5ba873c.png" title=" Diego clicks on Campo para ingresar la marca del movil" width="1366"/>
+                <img src="9f1633c8f465cf6574a36559738c9b1a707f78299a4b32d6bb5c252ea73faeb1.png" title=" Diego clicks on Campo para ingresar la marca del movil (completed)" width="1366"/>
+                <img src="9f1633c8f465cf6574a36559738c9b1a707f78299a4b32d6bb5c252ea73faeb1.png" title=" Diego enters 'Motorola' then hits [ENTER] into Seleccionar la marca del movil" width="1366"/>
+                <img src="f1e3b4ce3578bbbe1d43bc360811f315a2935278ab4c6232d003cd92c29a7969.png" title=" Diego enters 'Motorola' then hits [ENTER] into Seleccionar la marca del movil (completed)" width="1366"/>
+                <img src="7bb18a65877d51a8317303ae3d94073a36932f4c6e5980b836b10b985cf9c734.png" title=" Diego clicks on Campo para ingresar la version movil" width="1366"/>
+                <img src="33320b98ab6806cf1c147b478c0756c5a483adf91dad28b96a4539e5601bb2e8.png" title=" Diego clicks on Campo para ingresar la version movil (completed)" width="1366"/>
+                <img src="0f01993033e587ac5c21b7275de041d28328d461423ff4f0d931134f73b02948.png" title=" Diego enters 'Moto G9 Plus' then hits [ENTER] into Seleccion version movil" width="1366"/>
+                <img src="5787d45dc28d031afc3d236ccf2653402bf267a967925d6de5c97c13c70d4550.png" title=" Diego enters 'Moto G9 Plus' then hits [ENTER] into Seleccion version movil (completed)" width="1366"/>
+                <img src="5787d45dc28d031afc3d236ccf2653402bf267a967925d6de5c97c13c70d4550.png" title=" Diego clicks on Campo para el ingreso del sistema operativo movil" width="1366"/>
+                <img src="be323fbe888098f75f764315fa3577c4626450ff0720136171b693471f1beff4.png" title=" Diego clicks on Campo para el ingreso del sistema operativo movil (completed)" width="1366"/>
+                <img src="be323fbe888098f75f764315fa3577c4626450ff0720136171b693471f1beff4.png" title=" Diego clicks on Seleccion sistema operativo movil" width="1366"/>
+                <img src="ac202956c4c300e3f1492fd506eae5457e9652f82618dcaa1ad59e9866a0130f.png" title=" Diego clicks on Seleccion sistema operativo movil (completed)" width="1366"/>
+                <img src="ac202956c4c300e3f1492fd506eae5457e9652f82618dcaa1ad59e9866a0130f.png" title=" Diego clicks on Tercer boton para avanzar al siguiente paso" width="1366"/>
+                <img src="83583783a5f7d74f0169a50447e4a50c8798d803d55c32c49a849746b89d10b6.png" title=" Diego clicks on Tercer boton para avanzar al siguiente paso (completed)" width="1366"/>
+                <img src="e641c4a5186f53b8822dfcdc18a46b2558bb3838eef26a8873c3c5b63fe2f6ca.png" title=" Diego proceso registro (completed)" width="1366"/>
+                <img src="0cd06365ebe6e9bf7b24562f8a753f51616ebce169ff732c891dd42c5643e45e.png" title=" When realizo el registro en la pagina (completed)" width="1366"/>
+                <img src="807b7e774dd93f46dd699e42489cac341fcb460d51898c1a3676e07e17f31043.png" title=" Then podre ver el contenido de la pagina" width="1366"/>
+                <img src="ddf873e0f0859710b2be8d354c52720d829b80b56c0b46277480c52f138ba6f6.png" title=" Then podre ver el contenido de la pagina (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>
